@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:structureprojects/layout/singup.dart';
+import 'package:structureprojects/layout/login1.dart';
 
 import 'layout/login.dart';
 
@@ -13,11 +13,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Login',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: test(),
+      home: login1(),
     );
   }
 }

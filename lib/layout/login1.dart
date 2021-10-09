@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-class test extends StatefulWidget {
-  const test({Key? key}) : super(key: key);
+class login1 extends StatefulWidget {
+  const login1({Key? key}) : super(key: key);
 
   @override
 
-  _testState createState() => _testState();
+  _login1State createState() => _login1State();
 }
 
-class _testState extends State<test> {
+class _login1State extends State<login1> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(appBar: AppBar(backgroundColor: Colors.blueAccent),
